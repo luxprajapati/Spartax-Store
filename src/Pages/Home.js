@@ -15,7 +15,7 @@ const Home = () => {
       const data = await response.json();
       setProducts(data);
     } catch (error) {
-      alert("Something went wrong. Please try again !");
+      alert("API call is temporary block!");
       console.error(error);
       setProducts([]); // reset products
     }
