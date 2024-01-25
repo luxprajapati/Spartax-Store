@@ -3,7 +3,7 @@ import Product from "../Components/Product";
 import Spinner from "../Components/Spinner";
 
 const Home = () => {
-  const API_URL = "http://fakestoreapi.com/products";
+  const API_URL = "https://fakestoreapi.com/products";
 
   const [loading, setLoading] = useState(false);
   const [products, setProducts] = useState([]);
